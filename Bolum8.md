@@ -409,8 +409,8 @@ kalem=turtle.Turtle()
 kalem.color("green")
 for i in range (6):
  for j in range (6):
- kalem.forward(50)
- kalem.left(60) # iç döngü
+  kalem.forward(50)
+  kalem.left(60) # iç döngü
  kalem.left(60)# dış döngü
 turtle.done()
 ```
@@ -432,14 +432,14 @@ için dâhil edilmemiştir.
 import turtle
 def desen_çiz (kenar_uzunluğu=50,iç_kenar=3,tur_sayısı=3):
  if(tur_sayısı <01 or iç_kenar<3):
- print("hatalı veri girdiniz")
+  print("hatalı veri girdiniz")
  else:
- kalem=turtle.Turtle()
- for i in range (tur_sayısı):
- for j in range (iç_kenar):
- kalem.forward(kenar_uzunluğu)
- kalem.left(360/iç_kenar)
- kalem.left(360/tur_sayısı)
+  kalem=turtle.Turtle()
+  for i in range (tur_sayısı):
+   for j in range (iç_kenar):
+    kalem.forward(kenar_uzunluğu)
+    kalem.left(360/iç_kenar)
+   kalem.left(360/tur_sayısı)
 desen_çiz()
 desen_çiz(60,4,5)
 desen_çiz(70,6,10)
