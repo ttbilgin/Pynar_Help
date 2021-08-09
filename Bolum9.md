@@ -108,10 +108,10 @@ kisi_bilgileri = {'ad':'ali','yas':40,'memleketi':'konya'}
 print(kisi_bilgileri)
 # deger değiştirme
 kisi_bilgileri['yas'] =45
- print(kisi_bilgileri)
- # deger ekleme
- kisi_bilgileri['adres'] = 'nişantaşı'
- print(kisi_bilgileri)
+print(kisi_bilgileri)
+# deger ekleme
+kisi_bilgileri['adres'] = 'nişantaşı'
+print(kisi_bilgileri)
 
 >>> {'ad': 'ali', 'yas': 40, 'memleketi': 'konya'} 1.çıktı
 >>> {'ad': 'ali', 'yas': 45, 'memleketi': 'konya'} 2.çıktı
@@ -468,7 +468,7 @@ döngüsü ile ekrana ögeleri alt alta yazdırılmıştır.
 ```python
 deneme= (1,2,3,4,5,6,7)
 for eleman in deneme:
-print(eleman)
+ print(eleman)
 
 >>> 1
 >>> 2
