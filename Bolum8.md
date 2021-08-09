@@ -460,7 +460,7 @@ turtle.done()
 |Soru-4<br>![image](https://user-images.githubusercontent.com/56628866/128644008-b287198c-181c-418d-a9cc-3b315037f6e9.png)|Soru-5<br>![image](https://user-images.githubusercontent.com/56628866/128644013-68d440da-3eba-4f5d-9dd3-15c869613f16.png)|Soru-6<br>![image](https://user-images.githubusercontent.com/56628866/128644022-1ebd2bb3-2dff-4d3b-9e5f-9265ea53f0a2.png)|
 
 ## Cevaplar
-
+ 
 1.
 ```python
 import turtle
