@@ -38,6 +38,7 @@ Aşağıdaki örnek kodda kullanıcı adı ve şifresi doğru girilirse ekrana �
 kullaniciAdi=input('Kullanıcı Adı:')
 kullaniciParola=input('Parola:')
 print(kullaniciAdi=='Admin' and kullaniciParola=='123456')
+
 >>> Kullanıcı Adı:Admin
 >>> Parola:123456
 >>> True
@@ -50,6 +51,7 @@ Bölümü Bilgisayar veya Elektronik olanları seçmek için bir kod yazalım. b
 bolum=input('Bölümünüzü giriniz: ')
 #Büyük harf küçük harf duyarlılığını ulatmayın
 print(bolum=='Bilgisayar' or bolum=='Elektronik')
+
 >>> Bölümünüzü giriniz: Bilgisayar
 >>> True
 ```
@@ -84,6 +86,7 @@ için hata verir
 ```python
 print('Blok yapısı')
  print('Girinti')
+ 
 >>> File "<ipython-input-7-b54d1a37c7f1>", line 2
 >>>  print('Girinti')
 >>>  ^
@@ -108,6 +111,7 @@ yasi=int(input('Lütfen yaşınızı giriniz: '))
 if (yasi>=18):
  print('Oy kullanabilirsiniz.')
 print ('Program bitti.')
+
 >>> Lütfen yaşınızı giriniz: 18
 >>> Oy kullanabilirsiniz.
 >>> Program bitti.
@@ -121,6 +125,7 @@ yasi=int(input('Lütfen yaşınızı giriniz: '))
 if (yasi>=18):
  print('Oy kullanabilirsiniz.')
 print ('Program bitti.')
+
 >>> Lütfen yaşınızı giriniz: 15
 >>> Program bitti.
 ```
@@ -137,6 +142,7 @@ if (adi=='Tahsin'):
  print('2. Şart sağlandı')
  print ('2. if bloğunun içindesiniz.')
 print('Normal program akışı girinti yok.')
+
 >>> 2. Şart sağlandı.
 >>> 2. if bloğunun içindesiniz.
 >>> Normal program akışı girinti yok.
@@ -155,6 +161,7 @@ kullaniciParola=input('Parola:')
 if (kullaniciAdi=='Admin' and kullaniciParola=='123456'):
  print('Giriş başarılı.')
  print ('Menülere erişebilirsiniz.')
+ 
 >>> Kullanıcı Adı:Admin
 >>> Parola:123456
 >>> Giriş başarılı.
@@ -187,8 +194,9 @@ kullaniciParola=input('Parola:')
 if (kullaniciAdi=='Admin'):
  print('Kullanıcı adı doğru')
  if (kullaniciParola=='123456'):
- print('Giriş başarılı.')
- print ('Menülere erişebilirsiniz.')
+  print('Giriş başarılı.')
+  print ('Menülere erişebilirsiniz.')
+  
 >>> Kullanıcı Adı:Admin
 >>> Parola:123456
 >>> Giriş başarılı.
@@ -219,6 +227,7 @@ if ((sayi1%2)==0):
  print('Girdiğiniz sayı çifttir.')
 else:
  print('Girdiğiniz sayı tektir: ')
+ 
 >>> Lütfen bir sayı giriniz: 12
 >>> Girdiğiniz sayı çifttir.
 ```
@@ -231,6 +240,7 @@ if ((sayi1%2)==0):
  print('Girdiğiniz sayı çifttir.')
 else:
  print('Girdiğiniz sayı tektir: ')
+ 
 >>> Lütfen bir sayı giriniz: 13
 >>> Girdiğiniz sayı tektir:
 ```
@@ -247,6 +257,7 @@ if (kullaniciAdi=='Admin' and kullaniciParola=='123456'):
  print ('Menülere erişebilirsiniz.')
 else:
  print ('Yanlış kullanıcı adı veya şifre')
+ 
 >>> Kullanıcı Adı:Admin
 >>> Parola:123456
 >>> Giriş başarılı.
@@ -266,6 +277,7 @@ if (yasi>=18 and yasi<35 and bolum=='Bilgisayar' and yabanciDil==True):
  print('Mülakata katılabilirsiniz.')
 else:
  print('Şartlarınız tutmuyor.')
+ 
 >>> Lütfen yaşınızı giriniz: 20
 >>> Mülakata katılabilirsiniz.
 ```
@@ -294,6 +306,7 @@ elif sinavPuani>=55:
 elif sinavPuani>=45:
  print('geçer')
 else: print('Kaldı')
+
 >>> Puanınız giriniz (0-100): 65
 >>> Orta
 ```
@@ -321,15 +334,16 @@ else:
 if (basariPuani>=0):
  print('Başarı puanı: ', basariPuani )
  if (basariPuani>= 80 and basariPuani <= 100):
- print('Başarı notu : A')
+  print('Başarı notu : A')
  elif (basariPuani>= 70 and basariPuani <80):
- print('Başarı notu : B')
+  print('Başarı notu : B')
  elif (basariPuani>= 60 and basariPuani <70):
- print('Başarı notu : C')
+  print('Başarı notu : C')
  elif (basariPuani>= 50 and basariPuani <60):
- print('Başarı notu : D')
+  print('Başarı notu : D')
  elif (basariPuani< 50 ):
- print('Başarı notu : F')
+  print('Başarı notu : F')
+  
 >>> Vize puanını giriniz: 70
 >>> Final puanını giriniz: 80
 >>> Vize oranını % olarak giriniz (30, 40 gibi): 30
@@ -353,10 +367,10 @@ sayi2=60
 toplam=0
 if sayi1<=sayi2:
  if sayi1%2==0:
- sayi1=sayi2
- toplam=sayi1+sayi2
+  sayi1=sayi2
+  toplam=sayi1+sayi2
  else: toplam=sayi2-sayi1
-toplam+=toplam
+ toplam+=toplam
 print(toplam)
 ```
 6. Yukarıdaki kodda sayi1=40 sayi2=13 değerleri için kodun çıktısı kaç olur?
