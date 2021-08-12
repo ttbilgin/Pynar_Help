@@ -204,9 +204,9 @@ try:
  print('sayı girmediniz')
 else:
  try:
- print(10/s1)
- except ZeroDivisionError:
- print('sayı sıfıra bölünemez')
+   print(10/s1)
+   except ZeroDivisionError:
+   print('sayı sıfıra bölünemez')
 
 >>> Birinci Sayı :
 >>> sayı girmediniz
