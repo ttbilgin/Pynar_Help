@@ -137,7 +137,7 @@ s1 değerine 5, s2 değerine ise 0 girilmiştir. Bir sayının sıfıra bölüm�
 ```python
 S1 = int(input("Birinci Sayı :"))
 S2 = int(input("İkinci Sayı :"))
- try:
+try:
  sonuc = s1/s2
  print("Sonuc :",sonuc)
 except ZeroDivisionError:
@@ -189,3 +189,52 @@ except ValueError as hata:
 >>> invalid literal for int(  ) with base 10: 'd'
 ```
  
+Örnek 7’de sayı yerine harf girilmiştir ve hata mesajı da ekrana yazdırılmıştır.
+Try except else, oluşabilecek hataları adım adım ayıklanmak isteniyorsa “else” ifadesi kullanılmaktadır.
+
+
+**Örnek 8**
+
+```python
+try:
+ s1 = int(input("Birinci Sayı :"))
+ except ValueError:
+ print('sayı girmediniz')
+else:
+ try:
+ print(10/s1)
+ except ZeroDivisionError:
+ print('sayı sıfıra bölünemez')
+
+>>> Birinci Sayı :
+>>> sayı girmediniz
+```
+
+Örnek 8’de programda herhangi bir sayı girilmemiştir. Sayı girilmediğinde except ValueError bloğu
+devreye girerek, ekrana **“sayı girmediniz“** diye hata mesajı vermektedir. Ayrıca kullanıcı hata aldığında programın devam etmesi için Örnek 9’daki gibi bir uygulama yapılabilir. Continue ifadesi ile sayı yanlış girilirse tekrar girilmesi sağlanmaktadır. Örnek 9’da ilk önce a harfi sonra sıfır değeri girince hata mesajları verir ve tekrar sayı girilmesi istenir. En sonunda 30 sayısı girildiğinde sonuç ekrana yazdırılır.
+
+**Örnek 9**
+
+```python
+while True:
+  try:
+    x = input("Bir sayı girin: ")
+    if not x:
+      break
+    y = 1/float(x)
+  except ValueError:
+    print("Geçersiz sayı")
+    continue
+  except ZeroDivisionError:
+    print("Sıfıra bölme")
+    continue
+  print(y)
+  
+Bir sayı girin: a
+Geçersiz sayı
+Bir sayı girin: 0
+Sıfıra bölme
+Bir sayı girin: 30
+0.03333333333333333
+Bir sayı girin:
+```
