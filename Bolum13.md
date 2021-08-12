@@ -40,7 +40,9 @@ mümkün olmaktadır.
 ## 13.3. Hata Türleri
 
 **1.** Programcı Hatası (Error)
+
 **2.** Program Kusurları veya Mantık Hatası (Bug)
+
 **3.** İstisnalar (Exception)
 
 ## 13.3.1. Programcı Hatası
