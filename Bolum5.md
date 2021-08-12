@@ -537,8 +537,9 @@ print(sebzeler[2][1])
 ekrana yazdırılmıştır.
 
 **Örnek 33**
-# 3 Adet liste oluşturalım.
+
 ```python
+# 3 Adet liste oluşturalım.
 birinci_liste = [1,2,3]
 ikinci_liste = ['a','b','c']
 ucuncu_liste= [40,50,60]
@@ -551,8 +552,9 @@ print(son_liste)
 sadece a ve 50 değerlerini yan yana listelemek için aşağıdaki kodlar kullanılır.
 
 **Örnek 34**
-# 3 Adet liste oluşturalım.
+
 ```python
+# 3 Adet liste oluşturalım.
 birinci_liste = [1,2,3]
 ikinci_liste = ['a','b','c']
 ucuncu_liste= [40,50,60]
@@ -595,7 +597,9 @@ print (liste)
 ```
 Örnek 37’de 1 ile 15 arasındaki sayılardan oluşan liste oluşturulmuştur. Listenin ögeleri ekrana listelenmiştir. Ekrana listeleme işleminde sort(  ) metodu ile ögeler küçükten büyüğe, reverse ile büyükten küçüğe
 doğru sıralanmıştır.
+
 **Örnek 37**
+
 ```python
 liste=list(range(1,15,2))
 print(liste)
@@ -613,6 +617,7 @@ dizilerini istenen şekilde böler. -ayırıcı diye tanımladığımız ilk par
 bilgiler girildikçe listeye kaydedecektir. Listeye 4 adet öge girilmiş ve listeleme işlemi yapılmıştır.
 
 **Örnek 38**
+
 ```python
 bilgi=input("bilgilerinizi araya virgül koyarak yazınız: ")
 liste=bilgi.split(",")
