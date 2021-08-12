@@ -106,13 +106,13 @@ print("Sonuc :",sonuc)
 
 >>> Birinci Sayı :32
 >>> İkinci Sayı :4
-Sonuc : 8.0
-Birinci Sayı :32
-İkinci Sayı :0
-Traceback (most recent call last):
- File "<ipython-input-98-62c9318aa9da>", line 4, in <module>
- sonuc = s1/s2
-ZeroDivisionError: division by zero
+>>> Sonuc : 8.0
+>>> Birinci Sayı :32
+>>> İkinci Sayı :0
+>>> Traceback (most recent call last):
+     File "<ipython-input-98-62c9318aa9da>", line 4, in <module>
+      sonuc = s1/s2
+    ZeroDivisionError: division by zero
 ```
  
 Örnek 4’te birinci sayı sayı için 32 ikinci sayı için 4 değeri girilmiştir. Sonuç olarak 8 değeri yazılmıştır.
@@ -232,11 +232,11 @@ while True:
     continue
   print(y)
   
-Bir sayı girin: a
-Geçersiz sayı
-Bir sayı girin: 0
-Sıfıra bölme
-Bir sayı girin: 30
-0.03333333333333333
-Bir sayı girin:
+>>> Bir sayı girin: a
+>>> Geçersiz sayı
+>>> Bir sayı girin: 0
+>>> Sıfıra bölme
+>>> Bir sayı girin: 30
+>>> 0.03333333333333333
+>>> Bir sayı girin:
 ```
