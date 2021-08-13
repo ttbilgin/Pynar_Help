@@ -102,7 +102,7 @@ atlanır.
 
 Örneklerde sadece mantıksal operatörlerin sonucu “boolean” değeri ekrana yazdırıldı. Mantıksal operatörler koşul ifadeleriyle birlikte kullanıldığında belirli şartlarda belirli kod blokları çalıştırılabilir.
 
-** Örnek 4 **
+**Örnek 4**
 
 Kullanıcının yaş değerini alarak 18’e eşit veya büyük olması hâlinde ona mesaj veren kod:
 
