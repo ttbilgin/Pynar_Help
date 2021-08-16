@@ -355,7 +355,7 @@ print(kus1)
 **Örnek 19**
 ```python
 sebzeler =["lahana","marul","pırasa","ıspanak","fasulye"]
-print(sebzeler.indis("ıspanak"))
+print(sebzeler.index("ıspanak"))
 
 >>> 3
 ```
