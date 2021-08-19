@@ -69,12 +69,19 @@ Python’da sıklıkla karşılaşılan hataların bazıları aşağıda verilmi
 
 
 **a)** SyntaxError
+
 **b)** ValueError
+
 **c)** IndexError
+
 **d)** ZeroDivisionError
+
 **e)** NameError
+
 **f)** IOError
+
 **g)** TypeError
+
 **h)** KeyError
 
 Program hatası türünün fark edilmesi zordur. Sebebi ise program çalışır durumdadır herhangi bir hata

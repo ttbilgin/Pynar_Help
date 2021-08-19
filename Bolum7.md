@@ -49,6 +49,7 @@ bir sayı değeri alacaktır.
 **Örnek 2**
 
 Bir sayının çift olup olmadığını ekrana yazan bir fonksiyon.
+
 **Hatırlatma:** Bir sayının 2’ye bölümünden kalan yoksa o sayı çifttir varsa tektir.
 
 ```python
@@ -111,6 +112,7 @@ değilse “False” değerini döndürecektir.
 
 
 **NOT**
+
 >  “for” döngüsünde sayının yarısına kadar bakmamızın nedeni bir sayının kendi değerinin yarısından önce böleni yok ise sonrasında da olmayacağı kuralıdır.
 
 ```python
@@ -149,7 +151,7 @@ Yukarıda tanımlanan fonksiyonu çağırmak için kullanıcıdan argüman alman
 ```python
 faktoriyelAl(int(input('Faktöriyeli alınacak sayıyı giriniz: ')))
 >>> Faktöriyeli alınacak sayıyı giriniz: 5
-sonuc= 120
+>>> sonuc= 120
 ```
 
 ## 7.3. Fonksiyonlarda Parametre Türleri
@@ -278,6 +280,7 @@ ortalamaBul(sayilarim)
 ```
 
 **NOT**
+
 >  Fonksiyonlar bir fonksiyon da dâhil olmak üzere değer olarak her türlü veri tipini döndürebilirler.
 
 ## 7.5. Global ve Lokal Değişkenler

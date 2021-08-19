@@ -609,6 +609,11 @@ while i < 5:
  print(i)
 ```
 
+# 6.4. İç İçe Döngüler
+
+Hatırlanacağı üzere **break** ifadesi döngünün dışına çıkılmasını sağlamaktadır. Döngülerde kullanılan
+**continue** ifadesi, döngünün baştan sona kadar çalışmasını engellemeyen ancak belirli durumlar sağlandığında o adımı atlamamızı sağlayan yapılardır. Döngü sona ermez ancak verilen koşulun sağlanması durumunda döngüyü direk başa alır.
+
 **Örnek 33**
 
 ```python

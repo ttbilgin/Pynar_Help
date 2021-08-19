@@ -100,6 +100,7 @@ print('Mesleği:',modul.meslek)
 
 Program içinde sadece nesneleri sadece ismi ile çağırmak istenebilir. Bundan dolayı modülde sadece o
 nesneyi çağırmak gerekebilir.
+
 **Kullanımı:** from <Modül adı> import <İçericek Nesne>
 Örnek 2 klasörünün içinde **deneme2.py** dosyası oluşturulur. Bu dosyanın içerisine aşağıdaki kodları
 yazalım. Sadece kişiye ait meslek bilgisini çekmek istediğimizi farz ediyoruz. Ekrana böylelikle modül
@@ -132,6 +133,7 @@ print('Mesleği:',meslek)
 ```
 
 Tüm nesneleri kullanmak istiyoruz ve modülümüze takma isim verilerek de çağırma işlemi gerçekleştirebilir.
+
 **Kullanımı:** import modul_adi as takma_adi
 
 Örnek 2 klasörümüzün içinde deneme4.py adlı bir Python dosyası oluşturarak içine aşağıdaki kodları
@@ -156,6 +158,7 @@ print('Mesleği:',mod.meslek)
 Python’da herhangi bir hazır modülü kullanabilmek için öncelikle o modülü içe aktarılması gerekmektedir. İçe aktarmak bir modül içindeki fonksiyon ve niteliklerin başka bir program (veya ortam) içinden
 kullanılabilir hale getirilmesi anlamını taşımaktadır. Hazır modülleri kullanmak için modül ismi ile import
 edilerek çağrılmaktadır. Modül içindeki nesneler ise adlarıyla birlikte kullanılabilmektedir.
+
 **Kullanımı:** import hazır modül adı
 Örnek 3’te math modülünü projeye dâhil ediniz. Modüle ait özellikleri listeleyiniz.
 
