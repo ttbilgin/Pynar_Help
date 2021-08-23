@@ -160,7 +160,7 @@ dosya.close()
 Python’da dosyalara yazılan veriler string (metin) türünde kaydedilmektedir. Dosya erişim örneklerini
 öğrendikten sonra programlamada temel algoritmalar olarak kabul edilen arama ve sıralama algoritmalarını kullanarak dosya işlemleri yapılabilir.
 
-##12.4. Arama ve Sıralama Algoritmaları ile Dosyadan Okuma ve Dosyaya Yazma
+## 12.4. Arama ve Sıralama Algoritmaları ile Dosyadan Okuma ve Dosyaya Yazma
 
 İlk örnek şifreleme (kriptoloji) ve şifre çözme biliminde önemli bir yeri olan asal sayı örneği olacaktır.
 Çok büyük sayıların asal olup olmadığının kontrolü için bilgisayara hesaplatmak yerine kayıtlı olan
