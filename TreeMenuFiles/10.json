@@ -1,14 +1,27 @@
 {
-    "10.1 Sözlük Oluşturma": {
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "10.2 Sözlük Anahtar ve Değerlerine Erişim":{
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "10.3 Sözlüklerde Eleman Seçme, Silme, Ekleme, Değiştirme": {
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "10.4 Sözlükler Üzerinde Gezinme": {
-            "Veri gelmeli" : "Veri gelmeli"
-    }
+        "Bolum9.html#sözlük-oluşturma Sözlük Oluşturma": {
+                "Boş bir sozluk": "\nsozluk1 = {}\nprint(sozluk1)\n",
+                "integer ile oluşturulan keyler": "\nsozluk2 = {1: 'adana', 2: 'adıyaman'}\nprint(sozluk2)\n",
+                "string ve integer ile oluşan keyler": "\nsozluk3 = {'isim': 'ali', 1: [5, 4, 3]}\nprint(sozluk3)\n",
+                "dict fonksiyonu": "\nsozluk4 = dict({1:'erik', 2:'ayva'})\nprint(sozluk4)\n"
+        },
+        "Bolum9.html#sözlük-anahtar-ve-değerlerine-erişim Sözlük Anahtar ve Değerlerine Erişim": {
+                "keys() metodu": "\niller = {'konya': '42', 'istanbul': '34', 'ankara': '06'}\nprint(iller.keys())\n",
+                "values() metodu": "\niller = {'konya': '42', 'istanbul': '34', 'ankara': '06'}\nprint(iller.values())\n"
+        },
+        "Bolum9.html#sözlüklerde-eleman-seçme-silme-ekleme-değiştirme Sözlüklerde Eleman Seçme, Ekleme, Değiştirme": {
+                "Eleman Seçme": "\nsozluk = {'adi': 'sami', }\nprint(sozluk)\nsozluk['soyadi'] = 'yılmaz'\nprint(sozluk)\nsozluk['yasi'] = 40\nprint(sozluk)\n",
+                "Eleman Ekleme": "\n# deger ekleme\nkisi_bilgileri = {'ad': 'ali', 'yas': 40, 'memleketi': 'konya'}\nkisi_bilgileri['adres'] = 'nişantaşı'\nprint(kisi_bilgileri)\n",
+                "Eleman Değiştirme": "\nsozluk = {'isim': 'ahmet', 'yas': 40}\n# deger değiştirme\nsozluk['yas'] = 45\nprint(sozluk['yas'])\n"
+        },
+        "Bolum9.html#sözlükte-eleman-silme-işlemleri Sözlüklerde Eleman Silme": {
+                "pop() metodu": "\nkisi_bilgileri = {'Adı': 'Ekrem', 'Soyadı': 'Yıldırır', 'Yaşı': 40}\nprint(kisi_bilgileri)\nkisi_bilgileri.pop('Yaşı')\nprint(kisi_bilgileri)\n",
+                "popitem() metodu": "\nkisi_bilgileri = {'Adı': 'Ekrem', 'Soyadı': 'Yıldırır', 'Yaşı': 40}\nprint(kisi_bilgileri)\nkisi_bilgileri.popitem()\nprint(kisi_bilgileri)\n",
+                "del(parametre) anahtar sözcüğü": "\nkisi_bilgileri = {'Adı': 'Ekrem', 'Soyadı': 'Yıldırır', 'Yaşı': 40}\ndel kisi_bilgileri['Yaşı']\nprint(kisi_bilgileri)\n",
+                "clear() anahtar sözcüğü": "\nsozluk = {'black': 'siyah', 'green': 'yeşil', 'white': 'beyaz', }\nprint(sozluk)\nsozluk.clear()\nprint(sozluk)\n"
+        },
+        "Bolum9.html#sözlükler-üzerinde-gezinme Sözlükler Üzerinde Gezinme": {
+                "get() fonksiyonu": "\nsozluk = {'ad': 'ali', 1: [5, 4]}\nprint(sozluk['ad'])\nprint(sozluk.get(1))\n",
+                "Köşeli parantez içerisinde": "\nsozluk1 = {'sıfır': 0, 'bir': 1, 'iki': 2, 'üç': 3}\nprint(sozluk1)\n# 'bir' anahtarına karşılık gelen değeri buluyoruz.\nprint(sozluk1['bir'])\n# 'iki' anahtarına karşılık gelen değeri buluyoruz.\nprint(sozluk1['iki'])\n"
+        }
 }

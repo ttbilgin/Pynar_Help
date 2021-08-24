@@ -1,14 +1,11 @@
 {
-    "15.1 Hata Kavramı": {
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "15.2 Hata Yakalama":{
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "15.3 Hata Türleri": {
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "15.4 Try-Except Blokları": {
-            "Veri gelmeli" : "Veri gelmeli"
-    }
+        "Bolum13.html#try-except-blokları Try-Except": {
+                "Try-Except 1": "\ns1 = int(input('Birinci Sayı :'))\ns2 = int(input('İkinci Sayı :'))\ntry:\n\tsonuc = s1/s2\n\tprint('Sonuc :', sonuc)\nexcept ZeroDivisionError:\n\tprint('Bir sayıyı sıfıra bölemezsiniz lütfen sıfır dışında bir sayı girin')\n",
+                "Try-Except 2": "\ntry:\n\ts1 = int(input('Birinci Sayı :'))\n\ts2 = int(input('İkinci Sayı :'))\n\tsonuc = s1/s2\n\tprint('Sonuc :', sonuc)\nexcept ZeroDivisionError:\n\tprint('Lütfen ikinci sayıya sıfırdan farklı bir değer girin…')\nexcept ValueError:\n\tprint('Lütfen sayısal bir karakter girin..')\nexcept:\n\tprint('Beklenmeyen bir hata oluştu')\n"
+        },
+        "Bolum13.html#try-except-as Try Except as": {
+                "Try Except as 1": "\ntry:\n\ts1 = int(input('Birinci Sayı :'))\n\tsonuc = s1**2\n\tprint('Sonuc :', sonuc)\nexcept ValueError as hata:\n\tprint('Lütfen sayı giriniz')\n\tprint(hata)\n",
+                "Try Except as 2": "\ntry:\n\ts1 = int(input('Birinci Sayı : '))\nexcept ValueError:\n\tprint('sayı girmediniz')\nelse:\n\ttry:\n\t\tprint(10/s1)\n\texcept ZeroDivisionError:\n\t\tprint('sayı sıfıra bölünemez')\n",
+                "Try Except as 3": "\nwhile True:\n\ttry:\n\t\tx = input('Bir sayı girin: ')\n\t\tif not x:\n\t\t\tbreak\n\t\ty = 1/float(x)\n\texcept ValueError:\n\t\tprint('Geçersiz sayı')\n\t\tcontinue\n\texcept ZeroDivisionError:\n\t\tprint('Sıfıra bölme')\n\t\tcontinue\n\tprint(y)\n"
+        }
 }

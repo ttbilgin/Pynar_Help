@@ -1,11 +1,25 @@
 {
-    "13.1 Sayıların İleri Seviye Özellikleri": {
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "13.2 Sayılar Üzerinde Uygulanabilen Fonksiyonlar":{
-            "Veri gelmeli" : "Veri gelmeli"
-    },
-    "13.3 İleri Seviye Karakter Dizileri (String)": {
-            "Veri gelmeli" : "Veri gelmeli"
-    }
+        "Bolum11.html#sayıların-ileri-seviye-özellikleri Sayıların İleri Seviye Özellikleri": {
+                "Onluk tabandaki bir sayıyı ikilik tabana çevirme": "\nprint(bin(5))\n",
+                "Onluk tabandaki bir sayıyı onaltılık tabana çevirme": "\nprint(hex(18))\n"
+        },
+        "Bolum11.html#sayılar-üzerinde-uygulanabilen-fonksiyonlar Sayılar Üzerinde Uygulanabilen Fonksiyonlar": {
+                "abs() Fonksiyonu": "\nprint(abs(-10))\n\nprint(abs(15))\n",
+                "round() Fonksiyonu": "\nprint(round(5.7))\n\nprint(round(5.5))\n",
+                "chr() Fonksiyonu": "\nprint(chr(100))\n\nprint(chr(65))\n",
+                "max() Fonksiyonu": "\nprint(max(3, 5, 7, 8, 9))\n\nliste = [3, 8, 2, 6, 15]\nprint(max(liste))\n",
+                "min() Fonksiyonu": "\nprint(min(4, 7, 1, 2, 9))\n\nliste = [4, 7, 6, 9, 3]\nprint(min(liste))\n",
+                "pow() Fonksiyonu": "\nprint(pow(9,0.5))\n\nprint(pow(3,4))\n",
+                "sum() Fonksiyonu": "\nprint(sum([5, 3, 8, 6]))\n"
+        },
+        "Bolum11.html#ileri-seviye-karakter-dizileri-string İleri Seviye Karakter Dizileri özel metotları(String)": {
+                "replace() Fonksiyonu": "\na = 'python'\n\nprint(a.replace('p', 'P'))\n",
+                "split() Fonksiyonu": "\na = 'Milli Eğitim Bakanlığı'\n\nprint(a.split())\n",
+                "upper() ve lower() fonksiyonları": "\nprint('Merhaba dünya'.upper())\nprint('Merhaba DÜNYA'.lower())\n",
+                "join() fonksiyonu": "\nprint('-'.join(['Merhaba', 'Dünya']))\n\na = 'python programlama dili'\n",
+                "capitalize fonksiyonu": "\na = 'python programlama dili'\n\nprint(a.capitalize())\n",
+                "find() fonksiyonu": "\na = 'armağan'\n\nprint(a.find('a'))\n",
+                "rfind() fonksiyonu": "\na = 'armağan'\n\nprint(a.rfind('a'))\n",
+                "isdigit() fonksiyonu": "\nmetin = '12345'\nprint(metin.isdigit())\n\nmetin = 'asd123'\nprint(metin.isdigit())\n"
+        }
 }
