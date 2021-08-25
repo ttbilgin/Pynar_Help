@@ -1,6 +1,6 @@
 {
         "Bolum10.html#modül-yazma-ve-çağırma Modül Yazma ve Çağırma": {
-                "Modul.py oluşturma": "\nwith open (\"modul.py\",\"w\") as dosya:\n\tdosya.write (\"def cagir():\\n\\tprint(\\\"Merhaba Dunya\\\")\")\n\n\n#Sonraki bölümlerde öğreneceğimiz\n#Dosya oluşturma yöntemlerini\n#Kullanarak modul.py adında bir\n#python dosyası oluşturup içine basit\n#bir fonksiyon yazıyoruz.\n#Bu dosya şu anda çalıştığınız dosya ile\n#aynı dizinde oluşturulur.\n#modul.py dosyasını editör ile\n#açarak ya da örnekteki print\n#fonksiyonuna yazarak kendi metotlarınızı\n#oluşturabilirsiniz.\n",
+                "Modul.py oluşturma": "\ndef cagir():\n\tprint(\"Merhaba Dunya\")\n\n\n#Bu dosyayı modul.py adıyla şu an \n#kullandığınız klasöre kaydediniz.\n#Sonra Pynar Menüdeki 'Yeni' butonuyla\n#yeni bir dosya oluşturarak modül çağırma \n#kodlarını yeni dosyaya yazınız.",
                 "Modül çağırma": "\nimport modul\nprint(dir(modul))\n\n#dir() fonksiyonu ile Modülün\n#içindeki metotları görebiliriz.\n",
                 "Modülden fonksiyon çağırma": "\nimport modul #modülü çağırdık\nmodul.cagir()#modül içindeki fonksiyonu çalıştırdık\n"
         },
